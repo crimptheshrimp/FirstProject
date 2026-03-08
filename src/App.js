@@ -3,6 +3,8 @@ import HomePage from './features/homePage.jsx';
 import QuizPage from './features/quizPage.jsx';
 import './App.css';
 
+// manages the state of which page is being shown, and renders the appropriate page based on that state. Also contains the header and footer, which are shown on both pages.
+
 const App = () => {
   const renderPage = () => {
     return page === 'home' ? <HomePage /> : <QuizPage />;

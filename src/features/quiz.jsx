@@ -1,4 +1,4 @@
-// Shows all quiz questions and answers and contains the function to keep score and to randomise the order
+//contains all quiz questions and answers. Answers stored inside a second array represent multiple choice options, with the first element being the correct answer.
 
 let questions = [
     "Who was the most listened artist in 2017?",
