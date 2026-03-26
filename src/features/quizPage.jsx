@@ -91,7 +91,6 @@ const QuizPage = () => {
                         </div>
                     ) : (
                         <input
-                            className="choiceContainer"
                             id="answerInput"
                             type="text"
                             value={userAnswer}

@@ -35,7 +35,7 @@ button {
 
 li {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
 }
 
 .instructions {
@@ -77,11 +77,14 @@ li {
 }
 
 #answerInput {
-  position: absolute;
-  left: 40%;
+  display: block;
+  position: static;
+  left: 50%;
   text-align: center;
   border: 3px solid black;
-  margin: 50px;
+  margin: 20px auto;
+  margin-top: 100px;
+  padding: 5px;
 }
 
 #app-title {
@@ -95,17 +98,15 @@ li {
 }
 
 #submitSection {
-  position: absolute;
-  navigation: sticky;
+  display: block;
   top: 55%;
   left: 50%;
-  transform: translate(-50%,-50%);
   text-align: center;
   margin-top: 20px;
 }
 
 #multipleChoiceInput {
-  position: absolute;
+  display: flex;
   top: 20%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -117,9 +118,9 @@ li {
 }
 
 #home-button {
-  position: fixed;
+  position:fixed;
   top: 0px;
-  right: 200px;
+  right: 150px;
 }
 
 #questionNum {
@@ -165,7 +166,7 @@ li {
 }
 
 #quizCompleteMessage {
-  position: absolute;
+  display: flex;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
