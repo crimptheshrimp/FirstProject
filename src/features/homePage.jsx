@@ -14,7 +14,6 @@ const HomePage = () => {
             <h2 className="subheader">
                 <strong>RULES :</strong>
             </h2>
-            <br />
             <ul id="rules">
                 <li>You will answers in either multiple choice or short answer format</li>
                 <li>This quiz is on pop singers from 2000-2020</li>
